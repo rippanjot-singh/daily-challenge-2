@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image: url(img/nothing-bg.png);
+    color: white;
+    font-family: NH;
+}
+@font-face {
+    font-family: NH;
+    src: url(fonts/korataki-rg-3cf0d889-B6eTgmP5.ttf);
+}
+@font-face {
+    font-family: ndot;
+    src: url(fonts/Ndot-55-DoenNkNm.ttf);
+}
+nav{
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+    position: absolute;
+    width: 20vw;
+    top: 2vh;
+    left: 1.75rem;
+}
+.logo h1{
+    font-family: Ndot;
+    font-size: 3.5vw;
+    left: 60px;
+    top: 22px;
+    position: absolute;
+    font-weight: 100;
+}
+.search-box img{
+    position: absolute;
+    width: 20rem;
+}
+.search-box{
+    margin-top: -40px;
+    margin-left: 717px;
+}
+.search-box input{
+    padding-left: 55px ;
+    padding-top: 15px;
+    position: absolute;
+    font-size: 20px;
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.search-box input::placeholder{
+    color: rgba(255, 255, 255, 0.603);
+}
+.search-box input:focus{
+    outline: none;
+}
+.anchors{
+    position: absolute;
+    right: 0rem;
+    display: flex;
+    gap: 2rem;
+}
+.anchors a{
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+}
+.anchors-img{
+    cursor: pointer;
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    right: 1rem;
+    top: -20px;
+}
+.anchors-img img{
+    height: 50px;
+    width: 150px;
+}
+.as{
+    display: flex;
+    gap: 5rem;
+    position: absolute;
+    right: 1.4rem;
+    top: -7px;
+}
+.as a{
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+}
+.text{
+    color: #999D9C;
+}
+.text p{
+    font-family: ndot;
+}
+.phone img{
+    position: absolute;
+    width: 300px;
+    top: 100px;
+    left: 72rem;
+    rotate: -30deg;
+}
+.phone{
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    display: flex
+}
+.phone img:nth-child(2){
+    position: absolute;
+    width: 300px;
+    top: 130px;
+    left: 78rem;
+    rotate: -30deg;
+}
+.heading{
+    position: absolute;
+    top: 65%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size:28px;
+}
+.subheading{
+    position: absolute;
+    top: 85%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size:26px;
+    color: #b6b8b7;
+}
